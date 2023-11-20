@@ -178,11 +178,18 @@ body {
     }
 }
 
-.division {
+#aboutme .division {
     width: 100%;
     height: 1px;
     background-color: var(--div-background);
     margin: 5.5rem 0;
+}
+
+#projects .division {
+    width: 100%;
+    height: 1px;
+    background-color: var(--div-background);
+    margin: 2.5rem 0;
 }
 /* Projects */
 #projects {
@@ -198,7 +205,7 @@ body {
 
 .project {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: minmax(250px, auto);
     grid-gap: 0.9rem;
 }
@@ -228,7 +235,7 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     position: relative;
-    top: 160px;
+    top: 150px;
     left: 10px;
 }
 

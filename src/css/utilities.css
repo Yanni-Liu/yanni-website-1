@@ -127,10 +127,13 @@ p::selection {
     transition: 0.25s ease-in-out;
     font-size: 1.1rem;
     margin-right: 0.3rem;
+    font-weight: bold;
 }
 
 .card a:hover {
-    color: var(--primary-color);
+    color: var(--bg-third);
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .project .card:hover {
@@ -160,16 +163,21 @@ p::selection {
 /* Project 2 */
 .project .card:nth-child(2) {
     background: url(../assets/project/social_robots.png) center center/cover;
+    background-position: center top -40px;
+    background-size: 95%;
 }
 
 /* Project 3 */
 .project .card:nth-child(3) {
     background: url(../assets/project/physio_music.avif) center center/cover;
+    background-position: center top;
 }
 
 /* Project 4 */
 .project .card:nth-child(4) {
     background: url(../assets/project/baoxiaomi.jpg) center center/cover;
+    background-position: center top;
+    background-size: 95%;
 }
 
 /* Project 5 */
