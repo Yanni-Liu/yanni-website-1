@@ -141,6 +141,8 @@ body {
 .hamburger {
     margin-bottom: 0.1rem;
     display: none;
+   
+  
 }
 
 .bar {
@@ -248,7 +250,7 @@ body {
 
 /* Footer */
 #footer {
-    background: #003566;
+    background: var(--bg-secondary);
 }
 
 #footer .container {
@@ -320,6 +322,7 @@ body {
 
     .nav-menu.active {
         right: 20px;
+        background-color: var(--bg-secondary);
     }
 
     .nav-menu .nav-link {
