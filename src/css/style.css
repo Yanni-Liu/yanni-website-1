@@ -320,6 +320,7 @@ body {
 
     .nav-menu.active {
         right: 20px;
+        background-color: #003566;
     }
 
     .nav-menu .nav-link {
