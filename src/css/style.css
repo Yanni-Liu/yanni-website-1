@@ -248,7 +248,7 @@ body {
 
 /* Footer */
 #footer {
-    background: #003566;
+    background: var(--bg-secondary);
 }
 
 #footer .container {
@@ -320,7 +320,7 @@ body {
 
     .nav-menu.active {
         right: 20px;
-        background-color: #003566;
+        background-color: var(--bg-secondary);
     }
 
     .nav-menu .nav-link {
