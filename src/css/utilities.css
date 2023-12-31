@@ -162,7 +162,7 @@ p::selection {
 
 /* Project 2 */
 .project .card:nth-child(2) {
-    background: url(../assets/project/social_robots.png) center center/cover;
+    background: url(../assets/project/Nao-pepper.jpeg) center center/cover;
     background-position: center top -40px;
     background-size: 95%;
 }
@@ -175,10 +175,31 @@ p::selection {
 
 /* Project 4 */
 .project .card:nth-child(4) {
-    background: url(../assets/project/baoxiaomi.jpg) center center/cover;
+    background: url(../assets/project/2.png) center center/cover;
     background-position: center top;
     background-size: 95%;
 }
+
+.img-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+
+.img-container img {
+    max-width: 500px; /* 或者您可以使用百分比来设置相对大小 */
+    height: auto; /* 保持图片的纵横比 */
+    margin: 10px; /* 图片之间添加一些空间 */
+    display: inline-block; /* 使图片以内联块状元素显示，允许空白间隔 */
+    vertical-align: middle; /* 垂直对齐 */
+  }
+
+.figcaption {
+    display: block;
+    text-align: center; /* 将注释文本居中对齐 */
+    margin-top: 10px; /* 在注释和图片之间添加一些空间 */
+    font-size: 0.8em; /* 设置注释文本的大小 */
+  }
 
 /* Project 5 */
 .project .card:nth-child(5) {
@@ -201,3 +222,4 @@ p::selection {
         font-size: 2.5rem;
     }
 }
+
